@@ -13,6 +13,7 @@
 -# limitations under the License.
 
 Please view
+- username = twitter_username(data['user_id'])
 = succeed "'s" do
-  %a{:target => '_blank', :href => "https://twitter.com/#{data['username']}"} @#{data['username']}
+  %a{:target => '_blank', :href => "https://twitter.com/#{username}"} @#{username}
 profile page on Twitter.

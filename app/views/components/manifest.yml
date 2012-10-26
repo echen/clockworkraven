@@ -43,6 +43,5 @@
   :desc: Link to User
   :vars:
     :username:
-      :desc: Username (without "@" prefix)
+      :desc: User id
       :required: true
-
